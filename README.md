@@ -4,7 +4,7 @@ This is a repo for the Capstone project in the [Udacity C++ Nanodegree Program](
 
 <img src="pong_game.gif"/>
 
-The project implements a pong game for a single player with the left boundary of the domain to be defended by the player using a paddle. When the ball hits the top, bottom or the right boundary the ball rebounds with same velocity components and only the sign of the x component changes when it hits the right boundary and the sign of the y component changes when it hits the top and bottom boundary. The changes in the velocity components when it hits the paddle is changes with the position of the paddle which comes in contact to the ball.
+The project implements a pong game for a single player with the left boundary of the domain to be defended by the player using a paddle. When the ball rebounds of the top, bottom or the right boundary, the magnitude of the velocity components remains unchanged. The sign of the x component changes when it hits the right boundary and the sign of the y component changes when it hits the top or bottom boundary. The changes in the velocity components when it hits the paddle changes with the position of the paddle which comes in contact with the ball.
 
 
 ## Dependencies for Running Locally
